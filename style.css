@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+font-family: 'Poppins', sans-serif;
+color:white;
+background-color: #E4F2FD;
+}
+
+.container{
+    width:455px;
+    height:250px;
+    background-color: black;
+    border-radius: 25px;
+    position:absolute;
+    top:250px;
+    left:500px;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19)
+}
+.master img{
+    height:37px;
+    width:62px;
+    margin-top:22px;
+    margin-left:20px;
+    
+}
+.master-logo{
+    display:flex;
+}
+
+.master-logo .span{
+   margin-top: 24px;
+   margin-right:153px;
+   margin-left:10px;
+}
+
+.master-logo .span p{
+  font-size: 20px;
+}
+
+.logo img{
+    height:37px;
+    width:60px;  
+    margin-right: 20px;
+    margin-top:22px;
+}
+
+.title-num{
+    margin-left:20px;
+    margin-top:40px;
+}
+
+
+.title-num .p1{
+    font-size:15px;
+}
+
+.title-num .p2{
+    font-size:23px;
+}
+.name-date{
+    display:flex;
+}
+
+.name-date .name{
+    margin-left:20px;
+    margin-top:25px;
+}
+
+
+.name-date .date{
+    margin-left:178px;
+    margin-bottom:20px;
+}
+
+.name-date .date .d{
+    font-size:21px;
+}
+
+@media only screen and (max-width: 1500px) { 
+.container{
+    top:250px;
+    left:350px;
+}
+    
+
+  }
+
+  @media only screen and (max-width: 1200px) { 
+    .container{
+        top:250px;
+        left:300px;
+    }
+        
+    
+      }
+
+      
+  @media only screen and (max-width: 1000px) { 
+    .container{
+        top:250px;
+        left:230px;
+    }
+        
+    
+      }
+     
+  @media only screen and (max-width: 800px) { 
+    .container{
+        top:250px;
+        left:200px;
+    }
+        
+    
+      }
+     
+  @media only screen and (max-width: 700px) { 
+    .container{
+        top:250px;
+        left:90px;
+    }
+        
+    
+      }
+
+        
+  @media only screen and (max-width: 560px) { 
+    .container{
+        top:250px;
+        left:25px;
+    }
+        
+    
+      }
+    
